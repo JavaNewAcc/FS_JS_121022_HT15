@@ -1,0 +1,80 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: orange;
+}
+
+.link a:hover .additional_task {
+    font-size: 0.8rem;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+.bg-c-blue {
+    background: rgba(93, 176, 248, 0.8);
+    color: white;
+}
+
+.bg-c-darkblue {
+    background: rgba(30, 76, 116, 0.7);
+    color: white;
+}
+
+.bg-c-yellow {
+    background: rgba(244, 181, 34, 1);
+    color: white;
+}
+
+.bg-c-red {
+    background: rgba(206, 66, 47, 0.7);
+    color: white;
+}
+
+.bg-c-coral {
+    background: rgba(255, 110, 97, 0.9);
+    color: white;
+}
+
+.bg-c-green {
+    background: rgba(136, 176, 75, 0.95);
+    color: white;
+}
+
+.svgContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 0;
+    display: none;
+    position: fixed;
+    z-index: 111;
+}
+
+.loadingStatus {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.resElements {
+    transform: scale(1.0);
+    transition-duration: .5s;
+}
+
+.resElements:hover {
+    transform: scale(1.5);
+    z-index: 111;
+}
+

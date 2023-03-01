@@ -1,0 +1,39 @@
+{
+  "name": "hometask15",
+  "version": "1.0.0",
+  "description": "HomeTask 15, Gulp, Frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaNewAcc/FS_JS_121022_HT15.git"
+  },
+  "keywords": [
+    "Hometask15",
+    "gulp",
+    "frontend"
+  ],
+  "author": "Anton Braginets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavaNewAcc/FS_JS_121022_HT15/issues"
+  },
+  "homepage": "https://github.com/JavaNewAcc/FS_JS_121022_HT15#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.12",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "gulp-beautify": "^3.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^2.0.0"
+  }
+}
